@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login-background {
+    position: absolute;
+}
+.login-background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.55);
+}
+.login-background img {
+    width: 100%;
+}
+.login-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.login-header img {
+    height: 129px;
+    width: 184px;
+    margin-left: 30px;
+}
+.login-body {
+    position: absolute;
+    left: 33.3333%;
+    top: 92px;
+    background-color: rgba(0,0,0,.75);
+    padding: 60px 68px;
+    margin-bottom: 90px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+.login-form-main {
+    max-width: 380px;
+}
+.login-form-main h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.text {
+    background-color: #333;
+    width: 100%;
+    border-radius: 4px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    margin-bottom: 20px;
+}
+.place {
+    left: 85px;
+    position: absolute;
+    top: 22%;
+    color: #8c8c8c;
+    font-size: 16px;
+}
+.place-pass {
+    left: 85px;
+    position: absolute;
+    top: 33%;
+    color: #8c8c8c;
+    font-size: 16px;
+}
+.input-error {
+    display: none;
+}
+.btn-login {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin: 20px 0 10px 0;
+}
+.form-help {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.login-remember-text {
+    color: #b3b3b3;
+    font-size: 15px;
+    font-weight: 500;
+}
+.help-link {
+    cursor: pointer;
+    color: #b3b3b3;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 2px;
+    text-decoration: none;
+}
+.login-now {
+    max-width: 380px;
+}
+.logo img {
+    color: blue;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+.logo span {
+    color: #737373;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+.singup-now {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.singup-now a {
+    color: #fff;
+    text-decoration: none;
+}
+.recapch {
+    margin: 11px 0 70px 0px;
+    font-size: 13px;
+    color: #8c8c8c;
+}
