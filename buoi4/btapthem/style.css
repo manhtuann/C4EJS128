@@ -57,8 +57,24 @@
     color: #fff;
     height: 50px;
     line-height: 50px;
+    padding-left: 17px;
+    padding-top: 18px;
     border: none;
     margin-bottom: 20px;
+}
+
+.text:not(:placeholder-shown)~.place,
+.text:focus~.place{
+    transform: translateY(-100%);
+    font-size: 12px;
+    transition: all ease 0.25s;
+}
+.text:not(:placeholder-shown)~.place-pass,
+.text:focus~.place-pass{
+    top: 31%;
+    font-size: 12px;
+    transition: all ease-in-out 0.25s;
+
 }
 .place {
     left: 85px;
