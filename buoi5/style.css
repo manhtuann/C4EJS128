@@ -145,7 +145,7 @@ li {
     grid-gap: 20px 20px;
 }
 .about {
-    width: 305px;
+    width: 290px;
     height: 416px;
     background-color: #FFFFFF;
     padding: 20px;
@@ -179,7 +179,7 @@ li {
 }
 .newsfeed {
     height: 807px;
-    width: 638px;
+    width: 620px;
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 5px;
@@ -310,5 +310,28 @@ p {
     #7367F0;
     border: none;
     border-radius: 5px;
+}
+.photo {
+    width: 290px;
+    height: 338px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+.photo img {
+    width: 72px;
+    height: 73px;
+    object-fit: cover;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 24px;
+    right: 23px;
+}
+.last-photo {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #5E5873;
 }
 
