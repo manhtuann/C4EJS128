@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+li {
+    list-style: none;
+}
+.container {
+    background-color: #F8F8F8;
+    position: relative;
+}
+.menu__collapse {
+
+    width: 80px;
+    background: #FFFFFF;
+    fill: Solid rgba(0, 0, 0, 0.0001);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo {
+    margin: 25px 23px 30px 23px;
+}
+.home {
+    background-color: #F8F8F8;
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.layout {
+    margin-top: 20px;
+}
+.item {
+    margin-bottom: 25px;
+    height: 18px;
+    width: 18px;
+}
+.menu-container {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+.navbar {
+    margin-top: 20px;
+    width: calc(100vw - 140px);
+}
+.item-left {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 9px rgba(190, 190, 190, 0.13)
+}
+.item-left-main{
+    height: 62px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+.item-left-main li {
+    padding-left: 23px;
+}
+.item-right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.language,.search,.card,.notifi,.name,.avt {
+    padding: 7px;
+}
+.language {
+    font-size: 14px;
+}
+.user {
+    display: flex;
+}
+.name {
+    font-size: 14px;
+}
+.position {
+    font-size: 12px;
+    color: #ccc;
+    text-align: end;
+}
+.timeline {
+    height: 410px;
+    display: flex;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+}
+.avatar {
+    position: absolute;
+    bottom: 33px;
+    left: 30px;
+}
+.tab {
+    display: flex;
+    height: 38px;
+    align-items: center;
+    position: absolute;
+    bottom: 11px;
+    left: 193px;
+}
+.item-tab {
+    padding: 10px 21px;
+    border-radius: 5px;
+    text-align: center;
+}
+.active {
+    padding: 10px 30px;
+    background-color:  #7367F0;
+}
+.edit {
+    background-color: #7367F0;
+    height: 38px;
+    width: 89px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 14px;
+    position: absolute;
+    right: 19px;
+    bottom: 11px;
+}
+.edit svg {
+    position: absolute;
+    left: 14px;
+    top: 12px;
+}
+
+/* profit */
+.gird-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px 20px;
+}
+.about {
+    width: 305px;
+    height: 416px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+.about-title {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #5E5873;
+}
+.des {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6E6B7B;
+    line-height: 20px;
+}
+.about-name {
+    margin-top: 28px;
+}
+.about-name h3 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #5E5873;
+}
+.about-name p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6E6B7B;
+}
+.newsfeed {
+    height: 807px;
+    width: 638px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+.user-name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #5E5873;
+    padding: 0 0 20px 20px;
+}
+.user-date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B9B9C3;
+    margin-top: 3px;
+}
+.title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6E6B7B;
+}
+.img-news img{
+    width: 593px;
+    height: 300px;
+    border-radius: 5px;
+}
+.satus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.status-left {
+    display: flex;
+    align-items: center;
+}
+.tym {
+    margin-right: 10px;
+}
+.tym {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6E6B7B;
+    padding-right: 15px;
+}
+.satus-avt {
+    padding-right: 10px;
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6E6B7B;
+}
+.satus-avt svg{
+    margin-left: -10px;
+}
+.staus-right {
+    display: flex;
+    align-items: center;
+}
+.share,.comment {
+    padding-right: 20px;
+}
+.staus-right .item1{
+    position: absolute;
+    top: 53%;
+    right: 150px;
+}
+.share {
+    margin-right: 10px;
+}
+.staus-right .item2 {
+    position: absolute;
+    top: 53%;
+    right: 82px;
+}
+.comment1,
+.status-cmt,
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name h2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5E5873;
+}
+.name p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6E6B7B;
+}
+.status-cmt{
+    margin-right: 10px;
+}
+.status-cmt p {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6E6B7B;
+}
+.user-comment input {
+    width: 100%;
+    height: 100px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #B9B9C3;
+}
+.btn-post {
+    margin-top: 11px;
+}
+.btn-post button {
+    height: 30px;
+    width: 125px;
+    background-color: 
+    #7367F0;
+    border: none;
+    border-radius: 5px;
+}
+
