@@ -5,12 +5,13 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
 }
 li {
     list-style: none;
 }
 .container {
-    background-color: #F8F8F8;
+    background-color: #E5E5E5;
     position: relative;
 }
 .menu__collapse {
@@ -334,4 +335,19 @@ p {
     line-height: 24px;
     color: #5E5873;
 }
+.pages {
+    position: absolute;
+    top: 71%;
+}
+.pages-right {
+    position: absolute;
+    top: 65.5%;
+    right: 23.5%;
+}
+.news2 {
+    position: absolute;
+    top: 100%;
+    left: 25.2%;
+}
+
 
