@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2,p {
+    color: #fff;
+}
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.clock {
+    position: absolute;
+    background-color: black;
+    height: 60px;
+    width: 600px;
+    top: calc(50% - 60px);
+    left: calc(50% - 300px);
+    border-radius: 5px;
+}
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item-time {
+    margin-top: 8px;
+}
+p {
+    font-size: 12px;
+}
