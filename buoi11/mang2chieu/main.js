@@ -3,11 +3,12 @@ let arr = [
     [4,5,6],
     [7,8,9]
 ]
-function handle(){
-    for(let i =0 ; i<arr.length;i++) {
+function handle(){        
         let left =0;
         let right = 0;
         let result =0;
+    for(let i =0 ; i<arr.length;i++) {
+
         for(let j =0; j<arr.length; j++){
             if(i == j){
                 left += arr[i][j]

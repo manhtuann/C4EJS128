@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-image: linear-gradient(90deg, #7d5fff, #7158e2);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+input {
+    background-color: #fff;
+    border: 0;
+    font-size: 18px;
+    padding: 15px;
+    height: 50px;
+    transition: width 0.3s ease;
+}
+.input{
+    position: relative;
+}
+i {
+    background-color: #ccc;
+    border: 0;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    transition: all 0.3s ease;
+}
+.active {
+    height: 50px;
+    width: 50px;
+}
