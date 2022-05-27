@@ -19,21 +19,34 @@ html {
     display: flex;
     justify-content: space-around;
 }
+
+/* smail-img */
+.img-smail {
+    display: flex;
+}
+.img-smail-item img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border: 1px solid rgb(160, 88, 65);
+    margin: 20px 20px 20px 0;
+}
+
 .img-product {
     max-width: 500px;
     margin-right: 40px;
 }
 
-.img-product img {
+.img-product .img1 {
     width: 500px;
     height: 500px;
     object-fit: contain;
     border: 1px solid rgb(160, 88, 65);
+    transition: all 1s ease-in;
 }
 .title-img {
     font-size: 15px;
     line-height: 23px;
-    margin-top: 40px;
 }
 
 .information-product {
@@ -55,14 +68,14 @@ html {
     align-items: center;
 }
 .price-old {
-    padding-right: 5px;
+    margin-right: 5px;
     position: relative;
 }
 .price-old::after {
     content: '';
     position: absolute;
     height: 1px;
-    width: 55px;
+    width: 100%;
     background-color: rgb(160, 88, 65);
     top: 50%;
     transform: translateY(-50%);
@@ -117,6 +130,9 @@ input[type='number'] {
     cursor: pointer;
 }
 .active,.active1,.active2{
+    display: none;
+}
+.hide {
     display: none;
 }
 .remote {

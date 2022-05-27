@@ -56,6 +56,7 @@ detail.forEach(function (e) {
             <div class="wrap">
                 <p>${e.title}</p>
             <span class="more">+</span>
+            <span class="hide">-</span>
             </div>
             <p class="active">${e.desc}</p>
             </div>`
