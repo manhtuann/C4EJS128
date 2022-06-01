@@ -61,7 +61,7 @@ function handles() {
             <div class="information-product">
                 <div class="product">
                     <h1 class="title">${arr[flag].name}</h1>
-                    <span class="id-product">SKU:0005</span>
+                    <span class="id-product">${arr[flag].sku}</span>
                 </div>
                 <div class="price">
                     <p class="price-old">$15.00</p>
