@@ -9,7 +9,7 @@ const arr = [
         img:  "https://static.wixstatic.com/media/697bc8_71c164891c634fb7862f60a22a2a90f9~mv2_d_1920_1920_s_2.jpg/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01/697bc8_71c164891c634fb7862f60a22a2a90f9~mv2_d_1920_1920_s_2.webp",
         name: "I'm a product",
         sku: 0005,
-        price: "$10",
+        price: "10.00",
         detail: "I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions."
 
 
@@ -19,7 +19,7 @@ const arr = [
         img: 'https://static.wixstatic.com/media/697bc8_b121361914294c29894ef785e6ac9603~mv2_d_1920_1920_s_2.jpg/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01/697bc8_b121361914294c29894ef785e6ac9603~mv2_d_1920_1920_s_2.webp',
         name: "I'm a product",
         sku: 0006,
-        price: "$20.00",
+        price: "20.00",
         detail: "I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions."
     }
 ]
