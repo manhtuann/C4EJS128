@@ -31,7 +31,7 @@ function viewCart(){
         <td class="price">${cart[i][1]}</td>
         <td>${tt}</td>
         <td class="text-center">
-            <a href="#" class="remove_cart" rel="2">
+            <a href="#" onclick={removeCart(this)} class="remove_cart" rel="2">
                 <i class="fa fa-trash-o"></i>
             </a>
         </td>
